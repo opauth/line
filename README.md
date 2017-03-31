@@ -17,7 +17,7 @@ Getting started
    or
 
    ```bash
-   composer require opauth/line
+   composer require yuzuru-s/opauth-line
    ```
 
 2. Create a LINE Login application at https://business.line.me/

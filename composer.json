@@ -1,5 +1,5 @@
 {
-	"name": "opauth/line",
+	"name": "yuzuru-s/opauth-line",
 	"description": "LINE strategy for Opauth",
 	"keywords": ["line","authentication","auth","opauth", "oauth"],
 	"homepage": "http://opauth.org",

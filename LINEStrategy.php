@@ -43,7 +43,10 @@ class LINEStrategy extends OpauthStrategy{
 	public function request(){
 		$url = 'https://access.line.me/dialog/oauth/weblogin';
 
-		session_start();
+		if (session_status() !== PHP_SESSION_ACTIVE) {
+			session_start();
+		}
+
 		$_SESSION['_opauth_line_state'] = sha1(time());
 
 		$params = array(
@@ -73,7 +76,10 @@ class LINEStrategy extends OpauthStrategy{
 
 		$state = $_GET['state'];
 
-		session_start();
+		if (session_status() !== PHP_SESSION_ACTIVE) {
+			session_start();
+		}
+
 		$session = $_SESSION['_opauth_line_state'];
 		unset($_SESSION['_opauth_line_state']);
 		if ($session !== $state) {

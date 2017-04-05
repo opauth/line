@@ -11,13 +11,13 @@ Getting started
 1. Install Opauth-LINE:
    ```bash
    cd path_to_opauth/Strategy
-   git clone git://github.com/YuzuruS/opauth-line.git LINE
+   git clone git://github.com/opauth/line.git LINE
    ```
 
    or
 
    ```bash
-   composer require yuzuru-s/opauth-line
+   composer require opauth/line
    ```
 
 2. Create a LINE Login application at https://business.line.me/

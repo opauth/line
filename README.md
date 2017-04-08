@@ -21,13 +21,15 @@ Getting started
    ```
 
 2. Create a LINE Login application at https://business.line.me/
-   - Callback URL: enter `http://path_to_opauth/line/oauth2callback`
+   - Callback URL: enter `https://path_to_opauth/line/oauth2callback`
 
    
 3. Configure Opauth-LINE strategy.
 
-4. Direct user to `http://path_to_opauth/line` to authenticate
+4. Direct user to `https://path_to_opauth/line` to authenticate
 
+ATTENTION!
+*You can not use LINE Login without https*.
 
 Strategy configuration
 ----------------------

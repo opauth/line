@@ -50,4 +50,4 @@ License
 Opauth-LINE is MIT Licensed  
 Copyright © 2017 Yuzuru Suzuki (http://yuzurus.hatenablog.jp/)
 
-[1]: https://github.com/uzyn/opauth
+[1]: https://github.com/opauth/opauth

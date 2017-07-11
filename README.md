@@ -6,6 +6,8 @@ Implemented based on https://developers.line.me/web-api/integrating-web-login-v2
 
 Opauth is a multi-provider authentication framework for PHP.
 
+How to use(Only Japanese) http://yuzurus.hatenablog.jp/entry/opauth-line
+
 Getting started
 ----------------
 1. Install Opauth-LINE:
